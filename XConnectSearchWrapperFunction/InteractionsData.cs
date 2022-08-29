@@ -37,7 +37,7 @@ namespace XConnectSearchWrapperFunction
       var xConnectBaseUrl = System.Environment.GetEnvironmentVariable("XCONNECT_BASE_URL", EnvironmentVariableTarget.Process); //"https://fxmdemo.xconnect";
 
       //The client certificate path and thumbprint here
-      var xConnectClientCertificateThumbprint = System.Environment.GetEnvironmentVariable("XCONNECT_CERTIFICATE_THUMBPRINT", EnvironmentVariableTarget.Process); //"https://fxmdemo.xconnect";
+      var xConnectClientCertificateThumbprint = System.Environment.GetEnvironmentVariable("XCONNECT_CERTIFICATE_THUMBPRINT", EnvironmentVariableTarget.Process);
 
       // NOTE: don't want to mess up with the cerificate (find the right one, install that one on the right machine etc. etc.)? Go to the XConnect app and comment '<add key="validateCertificateThumbprint"' setting in the AppSettings.config. Of course THAT IS NOT THE GOOD IDEA FOR PRODUCTION!
 
